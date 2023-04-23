@@ -1,0 +1,87 @@
+# Site settings
+baseURL = "https://ejs.sh"
+languageCode = "en-US"
+title = "ejs.sh - under reconstruction"
+theme = "github.com/escalate/hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Local preview mode
+relativeURLs = true
+uglyURLs = true
+
+# Copyright
+copyright = "&copy;2022-present e.j. sahala (they/them)"
+
+[module]
+  [[module.imports]]
+    path = "github.com/escalate/hugo-split-theme"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "e.j. sahala (they/them)"
+  description = """the personal website of e.j. sahala - under (re)construction
+  (infrequent) musings on technology, coffee, and other stuff
+
+  **BlackLivesMatter**
+  **TransLivesMatter**
+  """
+
+  shareImage = "images/social.jpg"
+
+  # Favicon
+  favicon = "favicons/favicon.ico"
+
+  [params.custom.css]
+    enable = true
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/profile.png"
+      position = "center center"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+
+      [[params.links.list2.link]]
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+
+      [[params.links.list2.link]]
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "connect"
+
+      [[params.links.list3.link]]
+        icon = "fas fa-envelope"
+        text = "email"
+        url = "mailto:contactme@ejs.sh"
+        new_tab = false
+
+      [[params.links.list3.link]]
+        icon = "fab fa-linkedin"
+        text = "linkedin"
+        url = "https://www.linkedin.com/in/ejsdotsh/"
+        new_tab = true
+
+      [[params.links.list3.link]]
+        icon = "fab fa-github"
+        text = "github"
+        url = "https://github.com/ejsdotsh/"
+        new_tab = true
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
