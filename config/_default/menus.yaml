@@ -1,0 +1,11 @@
+main:
+  - identifier: "home"
+    name: "home"
+    weight: 100
+    url: "/"
+
+footer:
+  - identifier: "MPL-2.0"
+    name: "MPL-2.0"
+    weight: 1
+    url: "http://mozilla.org/MPL/2.0/"

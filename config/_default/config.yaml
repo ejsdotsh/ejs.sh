@@ -1,0 +1,49 @@
+baseURL: "https://ejs.wtf"
+languageCode: en-us
+title: "e.j. sahala (they/them)"
+#theme: "yacht"
+## theme as hugo module
+module:
+  imports:
+    path: "github.com/ejsdotsh/yacht"
+    disable: false
+
+#  paginate: 25
+
+# Localized dates requires Hugo version 0.87.0
+localizedDates: true
+  # date format
+  ##singleDateFormat: "2006-01-02"
+  ##indexDateFormat: "2006-01-02"
+  ##listDateFormat: "2006-01-02"
+
+taxonomies:
+  year: "year"
+  month: "month"
+  category: "categories"
+  series: "series"
+  tag: "tags"
+
+permalinks:
+  posts: "posts/:year/:month/:slug/"
+  year: "/posts/:slug/"
+  month: "/posts/:slug/"
+
+related:
+  includeNewer: true
+  threshold: 80
+  toLower: true
+  indices:
+    name: "keywords"
+    weight: 100
+  indices:
+    name: "tags"
+    weight: 80
+  indices:
+    name: "date"
+    weight: 10.0
+
+enableEmoji: true
+enableRobotsTXT: true
+enableGitInfo: false
+
