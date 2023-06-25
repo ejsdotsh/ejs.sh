@@ -1,6 +1,6 @@
 ---
 title: "YACHT Another Custom Hugo Theme"
-draft: true
+draft: false
 # image: //via.placeholder.com/640x150
 alt_text: "YACHT Another Custom Hugo Theme"
 summary: "YACHT Another Custom Hugo Theme"
