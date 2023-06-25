@@ -8,10 +8,17 @@ module:
     path: "github.com/ejsdotsh/yacht"
     disable: false
 
+  mounts:
+    - source: "node_modules/bulma/"
+      target: "assets/sass/bulma"
+    - source: "node_modules/@catppuccin/palette/scss/"
+      target: "assets/sass/ctp"
+
 #  paginate: 25
 
 # Localized dates requires Hugo version 0.87.0
-localizedDates: true
+localizedDates:
+  true
   # date format
   ##singleDateFormat: "2006-01-02"
   ##indexDateFormat: "2006-01-02"
@@ -25,25 +32,22 @@ taxonomies:
   tag: "tags"
 
 permalinks:
-  posts: "posts/:year/:month/:slug/"
-  year: "/posts/:slug/"
-  month: "/posts/:slug/"
+  blog: "blog/:year/:month/:slug/"
+  year: "/blog/:slug/"
+  month: "/blog/:slug/"
 
 related:
   includeNewer: true
   threshold: 80
   toLower: true
   indices:
-    name: "keywords"
-    weight: 100
-  indices:
-    name: "tags"
-    weight: 80
-  indices:
-    name: "date"
-    weight: 10.0
+    - name: "keywords"
+      weight: 100
+    - name: "tags"
+      weight: 80
+    - name: "date"
+      weight: 10.0
 
 enableEmoji: true
-enableRobotsTXT: true
-enableGitInfo: false
-
+# enableRobotsTXT: true
+enableGitInfo: true

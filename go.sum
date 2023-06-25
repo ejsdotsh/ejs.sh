@@ -1,2 +1,10 @@
 github.com/ejsdotsh/yacht v0.0.0-20230514181400-9b85e3b2a8de h1:lyvMYMCZEbfuzi0mLtFcQ+gA6rdxeBXLQvoc6QpAEZI=
 github.com/ejsdotsh/yacht v0.0.0-20230514181400-9b85e3b2a8de/go.mod h1:fBziPbhGfdthuxJTXD+npPp22YkLvNG8cTNeCVpa2mM=
+github.com/ejsdotsh/yacht v0.0.0-20230625201532-8bbfe89dc2ae h1:oXqUo5WzrDXAniK7BqH5YGHOhgfmVpZD4qV2I+sNQpE=
+github.com/ejsdotsh/yacht v0.0.0-20230625201532-8bbfe89dc2ae/go.mod h1:fBziPbhGfdthuxJTXD+npPp22YkLvNG8cTNeCVpa2mM=
+github.com/ejsdotsh/yacht v0.0.0-20230625205142-11339cc0489b h1:IKh02osGETCo5h0jiG0wbjUCFoE9nkUc9bvYDVmdjd0=
+github.com/ejsdotsh/yacht v0.0.0-20230625205142-11339cc0489b/go.mod h1:fBziPbhGfdthuxJTXD+npPp22YkLvNG8cTNeCVpa2mM=
+github.com/ejsdotsh/yacht v0.0.0-20230625212452-f40740d0b774 h1:WZxbjH04qMrPj8bKJRrq279p1OuJujzobQj+lIStW9s=
+github.com/ejsdotsh/yacht v0.0.0-20230625212452-f40740d0b774/go.mod h1:fBziPbhGfdthuxJTXD+npPp22YkLvNG8cTNeCVpa2mM=
+github.com/ejsdotsh/yacht-hugo-theme v0.0.0-20230608190218-7b3d27e4250f h1:IhUV6o+wpgzmLf34GLHrrbFamG6xs/+iVHpA3UtnqgQ=
+github.com/ejsdotsh/yacht-hugo-theme v0.0.0-20230608190218-7b3d27e4250f/go.mod h1:uc4HgUzaxHjvfjW3wI2JiT8NkLlXC9zsI6g4OVoUGKg=
