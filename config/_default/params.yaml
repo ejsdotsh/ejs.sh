@@ -3,17 +3,13 @@
 palette: "mocha"
 
 subTitle: |
-  under (re)construction -- (infrequent) musings on technology, coffee, and other stuff
+  personal site of e.j. sahala (they/them). (infrequent) musings on technology, coffee, and other stuff
 
 author: "e.j. sahala (they/them)"
 description: |
-  personal site of e.j. sahala (they/them).
+  personal site of e.j. sahala (they/them). (infrequent) musings on coffee, networking, automation, technology, philosophy, and sometimes other stuff.
 
-  writings on networking, automation, technology, philosophy, and sometimes other stuff
-
-  **BlackLivesMatter**
-
-  **TransLivesMatter**
+  #BlackLivesMatter #TransLivesMatter
 
 logoPicture: "images/ejs-sh.svg"
 profilePicture: "images/profile.png"

@@ -1,11 +1,11 @@
 baseURL: "https://ejs.sh"
 languageCode: en-us
 title: "e.j. sahala (they/them)"
-#theme: "yacht"
+theme: "github.com/ejsdotsh/yacht-hugo-theme"
 ## theme as hugo module
 module:
   imports:
-    path: "github.com/ejsdotsh/yacht"
+    path: "github.com/ejsdotsh/yacht-hugo-theme"
     disable: false
 
   mounts:
